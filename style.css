@@ -1,0 +1,122 @@
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  .score-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+  .score {
+    background-color: #0077b6;
+    color: #f5f5f5;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-right: 20px;
+    text-align: center;
+  }
+  
+  .score.correct-score {
+    background-color: #1eae98;
+  }
+  
+  .score.incorrect-score {
+    background-color: #e63946;
+  }
+  
+  .score-value {
+    font-weight: bold;
+    font-size: 28px;
+  }
+  
+  .score-label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Timer Styles */
+  .timer-container {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 30px;
+    color: #0077b6;
+  }
+  
+  /* Question Styles */
+  #question-container {
+    width: 70%;
+    margin: 50px auto 0;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+    background-color: #f5f5f5;
+  }
+  
+  #question {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #0077b6;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  button {
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  #answer1 {
+    background-color: #1eae98;
+    color: #f5f5f5;
+  }
+  
+  #answer2 {
+    background-color: #f44336;
+    color: #f5f5f5;
+  }
+  
+  #answer3 {
+    background-color: #4caf50;
+    color: #f5f5f5;
+  }
+  
+  #answer4 {
+    background-color: #2196f3;
+    color: #f5f5f5;
+  }
+  
+  #next-button {
+    background-color: #0077b6;
+    color: #f5f5f5;
+    margin-top: 30px;
+  }
+  
+  #feedback {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    color: #f44336;
+  }
+  
+  #feedback.correct {
+    color: #1eae98;
+  }
+  
